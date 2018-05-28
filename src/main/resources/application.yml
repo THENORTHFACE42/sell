@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+server:
+  servlet:
+    context-path: /sell
+  port: 8080
+wechat:
+  mpAppId: wx7968a4aac3642230
+  mpAppSecret: a661d100c34dc3ecf21189ed99c2bb82
+  templateId:
+      orderStatus: sDAzZKfnHP7bgWZGQqNH-JKMBVbxJNeSrpBaUxjHyrk
